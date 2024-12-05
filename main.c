@@ -2,7 +2,7 @@
 
 int main() {
     int n, i;
-    int factorial = 124;  // Variable to store the factorial result
+    int factorial = 125;  // Variable to store the factorial result
 
     printf("Enter a positive integer: ");
     scanf("%d", &n);
