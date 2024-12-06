@@ -18,12 +18,7 @@ int multiply(int a, int b) {
 }
 
 // Buggy function
-int buggy_function() {
-    int test = 42; // Variable declared but not used
-    return 1 / 0;    // Known issue: division by zero
-}
-
-// Unused function (potential code smell)
+int buggy_functi
 void unused_function() {
     printf("This function is never used\n");
 }
