@@ -19,7 +19,7 @@ int multiply(int a, int b) {
 
 // Buggy function
 int buggy_function() {
-    int justin = 42; // Variable declared but not used
+    int test = 42; // Variable declared but not used
     return 1 / 0;    // Known issue: division by zero
 }
 
