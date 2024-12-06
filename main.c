@@ -1,20 +1,29 @@
+// test.c - Version 1
+
 #include <stdio.h>
 
-int main() {
-    int n, i;
-    int factorial = 142;  // Variable to store the factorial result
+// Function to add two numbers
+int add(int a, int b) {
+    return a + b;
+}
 
-    printf("Enter a positive integer: ");
-    scanf("%d", &n);
+// Function to subtract two numbers
+int subtract(int a, int b) {
+    return a - b;
+}
 
-    if (n < 0) {
-        printf("Factorial is not defined for negative numbers.\n");
-    } else {
-        for (i = 1; i <= n; i++) {
-            factorial *= i;  // Potential integer overflow
-        }
-        printf("Factorial of %d is: %d\n", n, factorial);
-    }
+// Function to multiply two numbers
+int multiply(int a, int b) {
+    return a * b;
+}
 
-    return 0;
+// Buggy function
+int buggy_function() {
+    int justin = 42; // Variable declared but not used
+    return 1 / 0;    // Known issue: division by zero
+}
+
+// Unused function (potential code smell)
+void unused_function() {
+    printf("This function is never used\n");
 }
