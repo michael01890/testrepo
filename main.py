@@ -10,7 +10,7 @@ def multiply(a, b):
     return a * b 
 
 def buggy_function():
-    test = 48
+    test = 50
     return 1/0  # Known issue: division by zero
 
 
