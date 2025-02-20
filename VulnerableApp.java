@@ -5,7 +5,7 @@ public class VulnerableApp {
     private static final String PASSWORD = "password123";
 
     public static void main(String[] args) {
-        String unusedVariable = "This is never usedd";
+        String unusedVariable = "This is never usedddd";
 
         // SQL Injection vulnerability
         String userInput = "'; DROP TABLE users; --";
