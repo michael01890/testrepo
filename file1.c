@@ -3,7 +3,7 @@
 int main() {
     int num1, num2;       // Declare integer variables for user input
     int sum;              // Declare integer variable for the sum
-    int unusedVariable = 38;  // Unused integer variable
+    int unusedVariable = 39;  // Unused integer variable
 
     printf("Enter first number: ");
     scanf("%d", &num1);
