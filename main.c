@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-    int unusedVar = 1;
+    int unusedVar = 2;
     printf("Hello, CodeQL!\n");
     return 0;
     
